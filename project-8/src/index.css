@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --color-btnBlue: #176ae5;
+  --color-background: #efefef;
+  --color-banner: #f3f3f3;
+  --color-btnBlueBg: #e8f1fd;
+  --color-btnGreenBg: #e7f5eb;
+  --color-btnGreen: #24a346;
+  --color-grey: rgba(15, 15, 15, 0.6);
+  --color-lightYellow: #fff6e6;
+  --color-yellow: #ffa000;
+}
+
+.middle a.active {
+  background-color: #8c9398;
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+
+body {
+  background-color: #efefef;
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "What is useState and how does it work in React?",
+    "answer": "useState is a React Hook that allows functional components to manage state by providing a state variable and a function to update it. It helps components maintain dynamic values that trigger re-rendering when changed. Example: const [count, setCount] = useState(0); initializes 'count' with 0 and 'setCount' updates it when needed.",
+    "date": "2023-04-15"
+  },
+  {
+    "id": 2,
+    "question": "What is the purpose of useEffect in React?",
+    "answer": "useEffect allows function components to handle side effects such as data fetching, subscriptions, or manual DOM manipulation. It runs code after the component renders and can be controlled using dependency arrays. Example: useEffect(() => { fetchData(); }, []); ensures fetchData runs once when the component mounts.",
+    "date": "2024-11-09"
+  },
+  {
+    "id": 3,
+    "question": "What is a custom hook in React and when should you use one?",
+    "answer": "A custom hook is a reusable function that encapsulates logic using React Hooks. It helps to avoid repetitive code by abstracting functionalities like data fetching or state management. Example: function useFetch(url) { const [data, setData] = useState(null); useEffect(() => { fetch(url).then(res => res.json()).then(setData); }, [url]); return data; } allows components to reuse fetching logic easily.",
+    "date": "2022-06-28"
+  },
+  {
+    "id": 4,
+    "question": "Difference between controlled and uncontrolled components? Which one is better?",
+    "answer": "Controlled components have their state managed by React, while uncontrolled components rely on the DOM for state tracking. Controlled components allow predictable behavior, easier validation, and state handling, making them the preferred choice for most use cases.",
+    "date": "2025-02-13"
+  },
+  {
+    "id": 5,
+    "question": "Tell us something about useFormStatus() (explore and explain)",
+    "answer": "useFormStatus() is a React Hook that helps track form submission state in concurrent rendering environments. It allows developers to manage loading states, disable buttons during form submission, and improve user experience when handling async operations in forms.",
+    "date": "2021-09-05"
+  }
+]
