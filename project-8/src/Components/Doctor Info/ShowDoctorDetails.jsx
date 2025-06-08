@@ -19,6 +19,7 @@ const ShowDoctorDetails = ({ data }) => {
     fee,
     available_days,
     id,
+    designation,
   } = data;
 
   const checkAppointment = () => {
@@ -56,7 +57,9 @@ const ShowDoctorDetails = ({ data }) => {
           <p className="sm:text-3xl text-2xl font-bold">{name}</p>
           <div className="text-lg text-grey flex flex-col gap-1">
             <p>{education}</p>
-            <p>{specialty}</p>
+            <p>
+              {specialty}, {designation}
+            </p>
           </div>
           <div className="text-lg flex flex-col gap-1">
             <p className="text-grey">Working at </p>

@@ -11,16 +11,16 @@ const Footer = () => {
           <p className="font-bold text-2xl">Phudu</p>
         </div>
         <div className="grid sm:grid-cols-4 grid-cols-2 w-4/10  middle text-grey ">
-          <NavLink className={" flex justify-center"} to={"/"}>
+          <NavLink className={" flex justify-center py-1"} to={"/"}>
             Home
           </NavLink>
-          <NavLink className={" flex justify-center"} to={"/MyBookings"}>
+          <NavLink className={" flex justify-center py-1"} to={"/MyBookings"}>
             My-Bookings
           </NavLink>
-          <NavLink className={" flex justify-center"} to={"/Blogs"}>
+          <NavLink className={" flex justify-center py-1"} to={"/Blogs"}>
             Blogs
           </NavLink>
-          <NavLink className={" flex justify-center"} to={"/ContactUs"}>
+          <NavLink className={" flex justify-center py-1"} to={"/ContactUs"}>
             Contact Us
           </NavLink>
         </div>
