@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <div className="bg-white">
       <footer className="flex flex-col items-center p-12 gap-8">
-        <div className="flex items-center gap-4">
-          <img className="w-10 h-10" src="../../C001-assets/logo.png" alt="" />
-          <p className="font-bold text-2xl">Phudu</p>
+        <div className="flex items-center gap-2">
+          <img className="w-8 h-8" src="../../C001-assets/logo.png" alt="" />
+          <p className="font-bold text-2xl">DocTalk</p>
         </div>
         <div className="grid sm:grid-cols-4 grid-cols-2 w-4/10  middle text-grey ">
           <NavLink className={" flex justify-center py-1"} to={"/"}>

@@ -4,7 +4,7 @@ import { NavLink } from "react-router";
 const Navbar = () => {
   return (
     <div className="">
-      <div className="navbar bg-background w-9/10 mx-auto">
+      <div className="navbar bg-background w-9/10 mx-auto pt-4">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,13 +43,13 @@ const Navbar = () => {
             </ul>
           </div>
           <div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-2">
               <img
-                className="w-10 h-10"
+                className="w-9 h-9"
                 src="../../C001-assets/logo.png"
                 alt=""
               />
-              <p className="font-bold text-2xl">Phudu</p>
+              <p className="font-bold text-2xl">DocTalk</p>
             </div>
           </div>
         </div>
