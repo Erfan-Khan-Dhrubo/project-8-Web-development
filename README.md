@@ -133,7 +133,7 @@ npm i -D daisyui@latest
 npm run dev
 ```
 
-The app will start on [http://localhost:5173](http://localhost:5173). Open it in your browser to view it.
+The app will start on http://localhost:5173. Open it in your browser to view it.
 
 ---
 
